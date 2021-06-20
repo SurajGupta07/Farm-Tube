@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
       '&:hover': {
         backgroundColor: fade(theme.palette.common.white, 0.25),
       },
-      marginRight: theme.spacing(107),
+      marginRight: theme.spacing(105),
       width: '100%',
       [theme.breakpoints.up('sm')]: {
         marginLeft: theme.spacing(22.3),
@@ -108,6 +108,7 @@ export function Header() {
               </Badge>
             </IconButton>
             <IconButton
+            style={{paddingRight: '50px'}}
               edge="end"
               aria-label="account of current user"
               aria-controls={menuId}

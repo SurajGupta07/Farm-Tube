@@ -1,17 +1,18 @@
 import './App.css';
 import {Header} from "./components/Header"
-// import { Routes, Route } from "react-router-dom";
+import {Home} from "../src/components/Home"
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="appBody">
       <Header />
-      {/* <Routes>
+      <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/library" element={<Library />} />
+          {/* <Route path="/library" element={<Library />} />
           <Route path="/history" element={<History />} />
-          <Route path="/video-detail/:videoId" element={<VideoDetail />} />
-        </Routes> */}
+          <Route path="/video-detail/:videoId" element={<VideoDetail />} /> */}
+        </Routes>
     </div>
   );
 }
