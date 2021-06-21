@@ -1,21 +1,21 @@
 export const videoData = [{
         id: 1,
         title: "Hydroponics - A short introduction",
-        image: "https://i.ytimg.com/an_webp/Y7cGd0JHrs4/mqdefault_6s.webp?du=3000&sqp=CJL9vIYG&rs=AOn4CLBUhtUVJu2EXKHMgUOdlbEIw-ZhnA",
+        image: "https://i.ytimg.com/an_webp/vgSpWOSVDxA/mqdefault_6s.webp?du=3000&sqp=CKCGwYYG&rs=AOn4CLBdLSW6qtzyYSzfXIX4Scvp2Fyszw",
         url: "https://www.youtube.com/watch?v=Y7cGd0JHrs4",
         isLiked: false,
         isSaved: false
     }, {
         id: 2,
         title: "Hydrophonics concept - chemical & pesticide free farming",
-        image: "https://i.ytimg.com/an_webp/xqLPaZq6b-4/mqdefault_6s.webp?du=3000&sqp=CPDZvIYG&rs=AOn4CLDDfcGu1PvYkny_KB07Ce2XRn1Cqw",
+        image: "https://i.ytimg.com/an_webp/xqLPaZq6b-4/mqdefault_6s.webp?du=3000&sqp=CKaKwYYG&rs=AOn4CLCEwhva84gairoOodpnPq3eG4C2xQ",
         url: "https://youtu.be/xqLPaZq6b-4",
         isLiked: false,
         isSaved: false
     }, {
         id: 3,
         title: "Next Gen Farming Without Soil and 90% Less Water | GRATEFUL",
-        image: "https://i.ytimg.com/an_webp/3Ww2TP_tU7o/mqdefault_6s.webp?du=3000&sqp=CLjmvIYG&rs=AOn4CLD6NxedxPY5iJSxNZ-LY_hktLvWTg",
+        image: "https://i.ytimg.com/an_webp/3Ww2TP_tU7o/mqdefault_6s.webp?du=3000&sqp=COyDwYYG&rs=AOn4CLCEAJS5b-7JPf90rGMT9KoGgLl3lw",
         url: "https://www.youtube.com/watch?v=3Ww2TP_tU7o",
         isLiked: false,
         isSaved: false
