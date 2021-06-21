@@ -23,7 +23,7 @@ export const videoData = [{
     {
         id: 4,
         title: "Hydrophonics At Home",
-        image: "https://i.ytimg.com/an_webp/RgddxEvjy2o/mqdefault_6s.webp?du=3000&sqp=CIj5vIYG&rs=AOn4CLD0DXae3xMIbTIvOBbpkiRmNZxN-w",
+        image: "https://i.ytimg.com/an_webp/VkOdz-FKaj8/mqdefault_6s.webp?du=3000&sqp=CNyKwYYG&rs=AOn4CLAbmYGH8yVaqdHTP_He-hBDjejaVg",
         url: "https://www.youtube.com/watch?v=RgddxEvjy2o",
         isLiked: false,
         isSaved: false
@@ -31,7 +31,7 @@ export const videoData = [{
     {
         id: 5,
         title: "What Is Hydroponics: Amazing Advantages Over Soil-Based Agriculture",
-        image: "https://i.ytimg.com/an_webp/UHpNu4_6uc0/mqdefault_6s.webp?du=3000&sqp=CJX3vIYG&rs=AOn4CLBPoZOzcP7VaP3XafSTScg_q65NyA",
+        image: "https://i.ytimg.com/an_webp/UHpNu4_6uc0/mqdefault_6s.webp?du=3000&sqp=CKKfwYYG&rs=AOn4CLCRKUJyK8avzKwP8_EKyfN6LaOJJg",
         url: "https://www.youtube.com/watch?v=UHpNu4_6uc0",
         isLiked: false,
         isSaved: false
@@ -39,7 +39,7 @@ export const videoData = [{
     {
         id: 6,
         title: "15 Modern Farming Technologies",
-        image: "https://i.ytimg.com/an_webp/DoVGbPa0jHw/mqdefault_6s.webp?du=3000&sqp=CJysvYYG&rs=AOn4CLDKsUvznem3FyMUKBlhyNoaBs8H3g",
+        image: "https://i.ytimg.com/an_webp/DoVGbPa0jHw/mqdefault_6s.webp?du=3000&sqp=COyIwYYG&rs=AOn4CLDQxOS2g_sq_Zf-pcFejPNuG4HOJQ",
         url: "https://www.youtube.com/watch?v=UHpNu4_6uc0",
         isLiked: false,
         isSaved: false
@@ -47,7 +47,7 @@ export const videoData = [{
     {
         id: 7,
         title: "3 Skills to Start Farming Now",
-        image: "https://i.ytimg.com/an_webp/0brySxOtKow/mqdefault_6s.webp?du=3000&sqp=CKjyvIYG&rs=AOn4CLA6rW0PfLQQAW_axyvAS6QQa0o2AA",
+        image: "https://i.ytimg.com/an_webp/0brySxOtKow/mqdefault_6s.webp?du=3000&sqp=CPybwYYG&rs=AOn4CLDoDoYItaU1e2ye8hO64q7OPMKLhw",
         url: "https://youtu.be/0brySxOtKow",
         isLiked: false,
         isSaved: false
