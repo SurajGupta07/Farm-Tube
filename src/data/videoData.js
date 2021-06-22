@@ -1,54 +1,71 @@
 export const videoData = [{
-        id: 1,
+        id: "Y7cGd0JHrs4",
         title: "Hydroponics - A short introduction",
-        image: "https://i.ytimg.com/an_webp/vgSpWOSVDxA/mqdefault_6s.webp?du=3000&sqp=CKCGwYYG&rs=AOn4CLBdLSW6qtzyYSzfXIX4Scvp2Fyszw",
-        url: "https://www.youtube.com/watch?v=Y7cGd0JHrs4",
+        image: "https://img.youtube.com/vi/Y7cGd0JHrs4/maxresdefault.jpg",
+        url: "http://www.youtube.com/embed/Y7cGd0JHrs4",
         isLiked: false,
         isSaved: false
     }, {
-        id: 2,
-        title: "Hydrophonics concept - chemical & pesticide free farming",
-        image: "https://i.ytimg.com/an_webp/xqLPaZq6b-4/mqdefault_6s.webp?du=3000&sqp=CKaKwYYG&rs=AOn4CLCEwhva84gairoOodpnPq3eG4C2xQ",
-        url: "https://youtu.be/xqLPaZq6b-4",
-        isLiked: false,
-        isSaved: false
-    }, {
-        id: 3,
+        id: "3Ww2TP_tU7o",
         title: "Next Gen Farming Without Soil and 90% Less Water | GRATEFUL",
-        image: "https://i.ytimg.com/an_webp/3Ww2TP_tU7o/mqdefault_6s.webp?du=3000&sqp=COyDwYYG&rs=AOn4CLCEAJS5b-7JPf90rGMT9KoGgLl3lw",
-        url: "https://www.youtube.com/watch?v=3Ww2TP_tU7o",
+        image: "https://img.youtube.com/vi/3Ww2TP_tU7o/maxresdefault.jpg",
+        url: "http://www.youtube.com/embed/3Ww2TP_tU7o",
         isLiked: false,
         isSaved: false
     },
     {
-        id: 4,
-        title: "Hydrophonics At Home",
-        image: "https://i.ytimg.com/an_webp/VkOdz-FKaj8/mqdefault_6s.webp?du=3000&sqp=CNyKwYYG&rs=AOn4CLAbmYGH8yVaqdHTP_He-hBDjejaVg",
-        url: "https://www.youtube.com/watch?v=RgddxEvjy2o",
+        id: "DoVGbPa0jHw",
+        title: "15 Modern Farming Technologies that are NEXT LEVEL",
+        image: "https://img.youtube.com/vi/DoVGbPa0jHw/maxresdefault.jpg",
+        url: "https://www.youtube.com/embed/DoVGbPa0jHw",
         isLiked: false,
         isSaved: false
     },
     {
-        id: 5,
-        title: "What Is Hydroponics: Amazing Advantages Over Soil-Based Agriculture",
-        image: "https://i.ytimg.com/an_webp/UHpNu4_6uc0/mqdefault_6s.webp?du=3000&sqp=CKKfwYYG&rs=AOn4CLCRKUJyK8avzKwP8_EKyfN6LaOJJg",
-        url: "https://www.youtube.com/watch?v=UHpNu4_6uc0",
+        id: "AGcYApKfHuY",
+        title: "The High-Tech Vertical Farmer",
+        image: "https://img.youtube.com/vi/AGcYApKfHuY/maxresdefault.jpg",
+        url: "https://www.youtube.com/embed/AGcYApKfHuY",
         isLiked: false,
         isSaved: false
     },
     {
-        id: 6,
-        title: "15 Modern Farming Technologies",
-        image: "https://i.ytimg.com/an_webp/DoVGbPa0jHw/mqdefault_6s.webp?du=3000&sqp=COyIwYYG&rs=AOn4CLDQxOS2g_sq_Zf-pcFejPNuG4HOJQ",
-        url: "https://www.youtube.com/watch?v=UHpNu4_6uc0",
+        id: "WT6WJZK8VWY",
+        title: "Best Integrated Farm in the World | Amazing Integrated Farming system Model | Modern Agriculture",
+        image: "https://img.youtube.com/vi/WT6WJZK8VWY/maxresdefault.jpg",
+        url: "https://www.youtube.com/embed/WT6WJZK8VWY",
         isLiked: false,
         isSaved: false
     },
     {
-        id: 7,
-        title: "3 Skills to Start Farming Now",
-        image: "https://i.ytimg.com/an_webp/0brySxOtKow/mqdefault_6s.webp?du=3000&sqp=CPybwYYG&rs=AOn4CLDoDoYItaU1e2ye8hO64q7OPMKLhw",
-        url: "https://youtu.be/0brySxOtKow",
+        id: "LiNI-JUFtsA",
+        title: "Why the Future of Farming is in Cities - The Big Money in Vertical Farming",
+        image: "https://img.youtube.com/vi/LiNI-JUFtsA/maxresdefault.jpg",
+        url: "https://www.youtube.com/embed/LiNI-JUFtsA",
+        isLiked: false,
+        isSaved: false
+    },
+    {
+        id: "neqT2bruHwI",
+        title: "HOW TO START A FARM ON $5000 OR LESS!!!",
+        image: "https://img.youtube.com/vi/neqT2bruHwI/maxresdefault.jpg",
+        url: "https://www.youtube.com/embed/neqT2bruHwI",
+        isLiked: false,
+        isSaved: false
+    },
+    {
+        id: "1oETmA6AJQk",
+        title: "Hydroponics At Home",
+        image: "https://img.youtube.com/vi/1oETmA6AJQk/maxresdefault.jpg",
+        url: "https://www.youtube.com/embed/1oETmA6AJQk",
+        isLiked: false,
+        isSaved: false
+    },
+    {
+        id: "_ITrd71JWHk",
+        title: "Vertical Saffron Farming | Indoor Hydroponic Saffron Cultivation | How to grow Saffron",
+        image: "https://img.youtube.com/vi/_ITrd71JWHk/maxresdefault.jpg",
+        url: "https://www.youtube.com/embed/_ITrd71JWHk",
         isLiked: false,
         isSaved: false
     }

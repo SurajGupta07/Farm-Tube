@@ -1,7 +1,8 @@
 import './App.css';
+import { Routes, Route } from "react-router-dom";
 import {Header} from "./components/Header"
 import {Home} from "../src/components/Home"
-import { Routes, Route } from "react-router-dom";
+import {WatchVideo} from "../src/components/WatchVideo"
 
 function App() {
   return (
@@ -9,9 +10,9 @@ function App() {
       <Header />
       <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/library" element={<Library />} />
-          <Route path="/history" element={<History />} />
-          <Route path="/video-detail/:videoId" element={<VideoDetail />} /> */}
+          {/* <Route path="/library" element={<Library />} /> */}
+          {/* <Route path="/history" element={<History />} /> */}
+          <Route path="/watch/:videoId" element={<WatchVideo />} />
         </Routes>
     </div>
   );

@@ -5,7 +5,7 @@
 
 .appBody{
   background-color: #333335;
-  height: 75rem;
+  height: 60rem;
 }
 
 .App-header {
@@ -103,20 +103,17 @@ span {
 
 .videos-container{
   margin-top: 70px;
-  margin-left: 320px;
+  margin-left: 330px;
 }
 
 .card{
   background-color: #333335;
   color: #fff;
   width: 400px;
-  height: 280px;
+  height: 300px;
   list-style-type: none;
-  border: 2px solid #fff;
   margin-top: 20px;
-  margin-right: 30px;
-  border-radius: 0.25rem;
-  margin-bottom: 20px;
+  margin-right: 40px;
   cursor: pointer;
   float:left;    
 }
@@ -124,13 +121,71 @@ span {
 .card-img{
   height: 100px;
   width: 100% !important;
-  padding-left: 20px;
   display: inline;
   border-top-left-radius: calc(.25rem - 1px);
   border-top-right-radius: calc(.25rem - 1px);
 }
 
 .card-text{
-  padding-right: 10px;
-  padding-left: 10px;
+  font-weight: 200;
+  padding-right: 30px;
+}
+
+/* watch-videos */
+
+.watch-video{
+  padding-top: 100px;
+  margin-left: 350px;
+}
+
+.icon-btn {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.icon-btn-red {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  margin: 1rem;
+  color: red;
+}
+
+.material-icons {
+  font-size: 36px;
+}
+
+.like-video{
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.dislike-video{
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.like-video-button{
+  margin-left: 57rem;
+  border: none;
+  outline: none;
+  border-radius: 1px;
+}
+
+.dislike-video-button{
+  margin-left: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 1px;
+}
+
+.divder{
+  margin-left: 0px !important;
+  width: 80.5%;
 }
