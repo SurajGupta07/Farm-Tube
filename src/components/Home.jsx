@@ -7,14 +7,14 @@ export function Home(){
     return(
         <div style={{paddingBottom: '50px'}}>
             <ul className="videos-container">
-                {videos.map((item) => {
+                {videos.map((video) => {
                 return (
                     <>
                         <li className="card">
-                            <Link to={`/watch/${item.id}`} style={{ color: "inherit", textDecoration: "none" }}>
+                            <Link to={`/watch/${video.id}`} style={{ color: "inherit", textDecoration: "none" }}>
                                 <div className="card-img">
-                                    <img src={item.image} alt="thumbnail" style={{height: "200px", width: "350px"}}/>
-                                    <h3 className="card-text">{item.title}</h3>
+                                    <img src={video.image} alt="thumbnail" style={{height: "200px", width: "350px"}}/>
+                                    <h3 className="card-text">{video.title}</h3>
                                 </div>
                             </Link>
                         </li>
