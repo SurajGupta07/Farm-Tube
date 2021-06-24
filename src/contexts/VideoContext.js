@@ -6,14 +6,13 @@ export const VideoContext = createContext();
 
 export function VideoProvider({children}) {
     const [videos, setVideos] = useState([]);
-    useEffect(() => { 
-        (async () => {
-          let response = await axios.get(`${VIDEO_API}`)
-          if(response.status === 200){
-            setVideos(response.data.videos)
-          }
-        })()
-      }, []) 
+    useEffect(() => {
+      axios 
+      .get(`${VIDEO_API}`)
+      .then((response) => {
+        setVideos(response.data.videos)
+      })
+    }, [])
 
     return(
         <VideoContext.Provider value={{videos, setVideos}}>
