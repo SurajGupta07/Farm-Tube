@@ -24,14 +24,8 @@ export const SidebarData = [
   },
   {
     title: 'Liked Videos',
-    path: '/likes-videos',
+    path: '/liked',
     icon: <IoIcons.IoMdPeople />,
-    cName: 'nav-text'
-  },
-  {
-    title: 'Watch Later',
-    path: '/watch-later',
-    icon: <FaIcons.FaEnvelopeOpenText />,
     cName: 'nav-text'
   }
 ];

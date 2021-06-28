@@ -6,6 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router} from 'react-router-dom';
 import { VideoProvider } from './contexts/VideoContext';
+import { LikeProvider } from './contexts/likeContext';
 
 const theme = createMuiTheme({
     palette: {
@@ -21,11 +22,13 @@ const theme = createMuiTheme({
 ReactDOM.render(
     <React.StrictMode>
     <VideoProvider>
+    <LikeProvider>
     <Router>
         <ThemeProvider theme={theme}>
             <App/>
         </ThemeProvider>
     </Router>
+    </LikeProvider>
     </VideoProvider>
 </React.StrictMode>, document.getElementById('root'));
 

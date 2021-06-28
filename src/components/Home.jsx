@@ -1,11 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useVideos } from "../contexts/VideoContext";
 
 export function Home(){
     const {videos} = useVideos();
+    const {videoId} = useParams();
     return(
-        <div style={{paddingBottom: '50px'}}>
+        <div key={videoId} style={{paddingBottom: '50px'}}>
             <ul className="videos-container">
                 {videos.map((video) => {
                 return (
