@@ -12,8 +12,6 @@ function App() {
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/liked" element={<Liked />} />
-          {/* <Route path="/library" element={<Library />} /> */}
-          {/* <Route path="/history" element={<History />} /> */}
           <Route path="/watch/:videoId" element={<WatchVideo />} />
         </Routes>
     </div>
