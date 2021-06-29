@@ -6,16 +6,15 @@ import {MAIN_API} from "../dbConnect/dbConnect"
 export const useVideoData = () => {
     let {dispatch} = useLike();
 
-    const likeVideo = async (id) => {
-        console.log(id)
+    const likeVideo = async ({id, image, title, url}) => {
         const {status} = await axios.post(`${MAIN_API}/liked`, {
-            id
+            id, image, title, url
         });
         if(status === 200) {
             dispatch({
                 type: ADD_TO_LIKED_VIDEOS,
                 payload: {
-                    id
+                    id, image, title, url
                 }
             })
         }
