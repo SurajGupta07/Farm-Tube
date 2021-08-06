@@ -6,6 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import {makeStyles} from '@material-ui/core/styles';
 import IconButton from '@material-ui/core/IconButton';
 import AccountCircle from '@material-ui/icons/AccountCircle';
+import { useNavigate } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
     grow: {
@@ -55,6 +56,7 @@ const useStyles = makeStyles((theme) => ({
 export function Header() {
     const menuId = 'primary-search-account-menu';
     const classes = useStyles();
+    const navigate = useNavigate();
 
     return (
         <div>
@@ -75,7 +77,9 @@ export function Header() {
                             aria-label="account of current user"
                             aria-controls={menuId}
                             aria-haspopup="true"
-                            color="secondary">
+                            color="secondary"
+                            onClick = {() => navigate('/login')}
+                            >
                             <AccountCircle/>
                         </IconButton>
                     </div>
