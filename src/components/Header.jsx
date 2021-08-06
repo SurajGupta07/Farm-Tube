@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import {makeStyles} from '@material-ui/core/styles';
 import IconButton from '@material-ui/core/IconButton';
 import AccountCircle from '@material-ui/icons/AccountCircle';
-import { useNavigate } from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
     grow: {
@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
                 .up('md')
         ]: {
             display: 'flex',
-            marginLeft: '95rem',
+            marginLeft: '91rem',
             paddingRight: '5rem'
         }
     },
@@ -58,6 +58,11 @@ export function Header() {
     const classes = useStyles();
     const navigate = useNavigate();
 
+    const removeLogin = () => {
+        localStorage.removeItem('login')
+        navigate('/login');
+    }
+
     return (
         <div>
             <IconContext.Provider value={{
@@ -68,18 +73,18 @@ export function Header() {
                         <Link to="/" className="nav_logo">Farm-Tube</Link>
                     </Typography>
                     <div className={classes.sectionDesktop}>
+                        <div className="btn__logout" >
+                            <button className="history__btn" onClick={() => removeLogin()}>Logout</button>
+                        </div>
                         <IconButton aria-label="show 17 new notifications" color="secondary"></IconButton>
                         <IconButton
-                            style={{
-                            paddingRight: '50px'
-                        }}
                             edge="end"
                             aria-label="account of current user"
                             aria-controls={menuId}
                             aria-haspopup="true"
                             color="secondary"
-                            onClick = {() => navigate('/login')}
-                            >
+                            onClick=
+                            {() => navigate('/login')}>
                             <AccountCircle/>
                         </IconButton>
                     </div>

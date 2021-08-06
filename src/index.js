@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router} from 'react-router-dom';
 import { VideoProvider } from './contexts/VideoContext';
 import { LikeProvider } from './contexts/likeContext';
+import { AuthProvider } from './contexts/authContext';
 
 const theme = createMuiTheme({
     palette: {
@@ -21,6 +22,7 @@ const theme = createMuiTheme({
 
 ReactDOM.render(
     <React.StrictMode>
+    <AuthProvider>
     <VideoProvider>
     <LikeProvider>
     <Router>
@@ -30,6 +32,7 @@ ReactDOM.render(
     </Router>
     </LikeProvider>
     </VideoProvider>
+    </AuthProvider>
 </React.StrictMode>, document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function to
