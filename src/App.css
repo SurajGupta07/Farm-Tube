@@ -163,6 +163,12 @@ span {
   cursor: pointer;
 }
 
+.removeLiked{
+  z-index: 5 !important;
+  margin-top: -120px !important;
+  margin-left: 320px;
+}
+
 .dislike-video{
   height: 20px;
   width: 20px;

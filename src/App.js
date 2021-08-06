@@ -1,17 +1,17 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom";
 import {Header} from "./components/Header"
-import {Home} from "../src/components/Home"
+import {HomePage} from "./pages/HomePage"
 import {WatchVideo} from "../src/components/WatchVideo"
-import {Liked} from "../src/components/Liked"
+import {LikedPage} from "./pages/LikedPage"
 
 function App() {
   return (
     <div className="appBody">
       <Header />
       <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/liked" element={<Liked />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/liked" element={<LikedPage />} />
           <Route path="/watch/:videoId" element={<WatchVideo />} />
         </Routes>
     </div>

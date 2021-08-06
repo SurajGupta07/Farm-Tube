@@ -1,8 +1,8 @@
 import {useVideos} from "../contexts/VideoContext";
 import {useParams, Link} from "react-router-dom";
 import { useVideoData } from "../hooks/useVideoData";
-import Like from "./like.png"
-import Dislike from "./dislike.png"
+import Like from "../assets/like.png"
+import Dislike from "../assets/dislike.png"
 
 export function WatchVideo() {
     const {videoId} = useParams();
