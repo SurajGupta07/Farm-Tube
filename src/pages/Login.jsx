@@ -1,11 +1,15 @@
-import {Link} from "react-router-dom";
+import { useEffect } from "react";
+import {Link, useNavigate} from "react-router-dom";
 import { useAuth } from "../contexts/authContext";
 import { useAuthActions } from "../hooks/useAuthActions";
 
 export const Login = () => {
-    let {email, setEmail, password, setPassword} = useAuth();
+    let {email, setEmail, password, setPassword, token} = useAuth();
     let {loginUser} = useAuthActions();
-    
+    const navigate = useNavigate();
+    useEffect(() => {// eslint-disable-next-line   
+        {token && navigate("/")} 
+    }, [token, navigate])
     return (
         <div class="login-page ">
             <div class="form">
@@ -16,6 +20,15 @@ export const Login = () => {
                     <p class="message">Not registered?
                         <Link to="/signup">{" "}Create an Account</Link>
                     </p>
+                    <h3>
+                        Login Credentials
+                    </h3>
+                    <div>
+                        <strong>suraj@gmail.com</strong>
+                    </div>
+                    <div>
+                        <strong>123456</strong>
+                    </div>
                 </form>
             </div>
         </div>

@@ -5,7 +5,6 @@ import {IconContext} from 'react-icons';
 import Typography from '@material-ui/core/Typography';
 import {makeStyles} from '@material-ui/core/styles';
 import IconButton from '@material-ui/core/IconButton';
-import AccountCircle from '@material-ui/icons/AccountCircle';
 import {useNavigate} from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
@@ -73,7 +72,7 @@ export function Header() {
                         <Link to="/" className="nav_logo">Farm-Tube</Link>
                     </Typography>
                     <div className={classes.sectionDesktop}>
-                        <div className="btn__logout" >
+                        <div>
                             <button className="history__btn" onClick={() => removeLogin()}>Logout</button>
                         </div>
                         <IconButton aria-label="show 17 new notifications" color="secondary"></IconButton>
@@ -85,7 +84,6 @@ export function Header() {
                             color="secondary"
                             onClick=
                             {() => navigate('/login')}>
-                            <AccountCircle/>
                         </IconButton>
                     </div>
                 </div>

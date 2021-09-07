@@ -18,7 +18,7 @@ export const History = () => {
                 console.log(err)
             }
         })()
-    }, [])
+    }, [historyVideo])
 
     return(
         <div style={{paddingBottom: '50px'}}>
