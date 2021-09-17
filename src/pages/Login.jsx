@@ -1,0 +1,36 @@
+import { useEffect } from "react";
+import {Link, useNavigate} from "react-router-dom";
+import { useAuth } from "../contexts/authContext";
+import { useAuthActions } from "../hooks/useAuthActions";
+
+export const Login = () => {
+    let {email, setEmail, password, setPassword, token} = useAuth();
+    let {loginUser} = useAuthActions();
+    const navigate = useNavigate();
+    useEffect(() => {// eslint-disable-next-line   
+        {token && navigate("/")} 
+    }, [token, navigate])
+    return (
+        <div class="login-page ">
+            <div class="form">
+                <form class="login-form">
+                    <input type="text" placeholder="email" onChange={(e) => setEmail(e.target.value)} />
+                    <input type="password" placeholder="password" onChange={(e) => setPassword(e.target.value)}/>
+                    <button onClick={(e) => loginUser(e, email, password)}>login</button>
+                    <p class="message">Not registered?
+                        <Link to="/signup">{" "}Create an Account</Link>
+                    </p>
+                    <h3>
+                        Login Credentials
+                    </h3>
+                    <div>
+                        <strong>suraj@gmail.com</strong>
+                    </div>
+                    <div>
+                        <strong>123456</strong>
+                    </div>
+                </form>
+            </div>
+        </div>
+    )
+}
